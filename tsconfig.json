@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "es2017"],
-    "jsx": "react",
-    "module": "commonjs",
-    "target": "es2017",
+    "lib": ["dom", "es2022"],
+    "jsx": "react-jsx",
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "target": "es2022",
     "strict": true,
-    "rootDir": "./src",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   }
 }
